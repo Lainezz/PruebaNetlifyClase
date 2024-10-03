@@ -1,0 +1,47 @@
+body {
+    
+    padding: 0px;
+    margin: 0px;
+}
+.main {
+
+    height: 100vh;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main__container {
+    display: flex;
+    justify-content: center;
+    column-gap: 2em;
+
+    width: 50%;
+    height: 50%;
+    background-color: lightcoral;
+}
+
+.container__divTexto {
+
+    display: flex;
+    align-items: center;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    font-weight: bolder;
+
+}
+
+.container__foto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 50%;
+    
+}
+
+.foto__img {
+    width: auto;
+    height: 100%;
+}
